@@ -1,0 +1,27 @@
+/*the strucutre of CSS*/
+/*CSS rule*/
+selector{ /*element (p, ul,...), class name (.active), ID (#work)*/
+    property: value; /*statement: property: */
+}
+/*ID only once in a page - dont use id 
+class many times*/
+
+body{
+    background-color: #f2f2f2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: #090909;
+}
+
+h1, h2, h3{
+    font-family: 'Source Serif Pro', serif;
+}
+
+.title{
+    color: #ff0000;
+}
+
+#title{
+    color: #0000ff;
+}
